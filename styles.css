@@ -10,8 +10,8 @@
     --glass-bg: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.1);
     --glass-blur: 15px;
-    --font-heading: 'Montserrat', sans-serif;
-    --font-body: 'Roboto', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Poppins', sans-serif;
     --transition-speed: 0.3s;
 }
 
@@ -50,6 +50,39 @@ a {
 
 ul {
     list-style: none;
+}
+
+/*---floting button---*/
+/* From Uiverse.io by andrew-demchenk0 */
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: none;
+    background-color: #006aff7f;
+}
+
+.button1:hover {
+    background-color: #6298ce;
+}
+
+/* From Uiverse.io by andrew-demchenk0 */
+.button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: none;
+    background-color: #30C04F;
+}
+
+.button2:hover {
+    background-color: #65d67e;
 }
 
 /* --- Utilities --- */
